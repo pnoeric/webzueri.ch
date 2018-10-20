@@ -10,7 +10,7 @@
     </div>
 
     <div v-if="dropdown" class="no-underline body-2 text-on-light-primary">
-       {{user.name}}
+      {{user.name}}
     </div>
     <nuxt-link v-else to="/profile/" class="no-underline body-2 text-on-light-primary">
       {{user.name}}
